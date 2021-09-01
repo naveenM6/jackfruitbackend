@@ -23,7 +23,7 @@ const initializeDbAndServer = async () => {
       });
   
       app.listen(process.env.PORT || 3000, () =>
-        console.log("Server Running at http://localhost:5004/")
+        console.log("Server Running at http://localhost:3000/")
       );
     } catch (error) {
       console.log(`DB Error: ${error.message}`);
