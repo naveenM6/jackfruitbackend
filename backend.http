@@ -1,0 +1,35 @@
+POST http://localhost:5004/log
+Content-Type: application/json
+
+{
+    "username": "jackfruit",
+    "password": "jackfruit1"
+}
+
+###
+
+POST http://localhost:5004/login
+Content-Type: application/json
+
+{
+    "userName": "jackfruit",
+    "password": "jackfruit1"
+}
+
+
+###
+
+POST http://localhost:5004/posts
+Content-Type: application/json
+
+{
+    "BAS": "344445",                 
+    "HRA": "9894",
+    "LTA": "654" ,
+    "FA": "6543" ,
+    "INV": "6543" ,
+    "RENT": "654" ,
+    "CITY": "76543",
+    "MED": "876543",
+    "TAXABLE": "765987"
+}
